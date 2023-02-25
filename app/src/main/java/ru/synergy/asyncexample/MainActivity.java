@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     public void buttonClick (View view) {
         switch (view.getId()){
             case R.id.asynTasck:
-                Intent intent = new Intent(this, AsyncTasckExample.class);
+                Intent intent = new Intent(this, AsyncTaskExample.class);
                 startActivity(intent);
 
         }
